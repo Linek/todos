@@ -1,10 +1,12 @@
 {
-  "name": "tsadza/todos",
+  "name": "Linek/todos",
   "description": "Simple TodoList",
   "type": "library",
   "require": {
-    "php": "^8.3",
-    "laravel/laravel": "^11.3"
+    "php": "^8.0",
+    "illuminate/support": "*",
+    "illuminate/database": "*",
+    "illuminate/routing": "*"
   },
   "require-dev": {
     "pestphp/pest": "^3.5"
