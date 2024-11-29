@@ -1,5 +1,5 @@
 {
-  "name": "Linek/todos",
+  "name": "linek/todos",
   "description": "Simple TodoList",
   "type": "library",
   "require": {
