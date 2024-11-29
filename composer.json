@@ -1,0 +1,36 @@
+{
+  "name": "tsadza/todos",
+  "description": "Simple TodoList",
+  "type": "library",
+  "require": {
+    "php": "^8.3",
+    "laravel/laravel": "^11.3"
+  },
+  "require-dev": {
+    "pestphp/pest": "^3.5"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Todos\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Tomasz Sadza",
+      "email": "tomasz@spj.com.pl"
+    }
+  ],
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Todos\\TodosServiceProvider"
+      ]
+    }
+  }
+}
